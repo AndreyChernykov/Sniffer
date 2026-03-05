@@ -1,19 +1,38 @@
 ﻿using System;
 using PacketDotNet;
-using PacketDotNet.Ieee80211;
 using SharpPcap;
 
 class Program
 {
     static void Main()
     {
+        Console.WriteLine("Введите:\n1 если слушаем Tcp\n2 если слушаем com port");
+        int listener = int.Parse(Console.ReadLine());
+
+        switch (listener)
+        {
+            case 1:
+                TcpListen();
+                break;
+            case 2:
+                ComListen();
+                break;
+        }
+
+
+    }
+
+    private static void TcpListen()
+    {
+        Console.WriteLine("Введите IP ");
+        string ip = Console.ReadLine();
+
         var devices = CaptureDeviceList.Instance;
         if (devices.Count < 1)
         {
             Console.WriteLine("Нет доступных интерфейсов");
             return;
         }
-
         // Выводим список интерфейсов
         for (int i = 0; i < devices.Count; i++)
             Console.WriteLine($"{i}: {devices[i].Description}");
@@ -55,7 +74,7 @@ class Program
 
 
         device.Open(DeviceModes.Promiscuous, 1000);
-        device.Filter = "host 192.168.100.7";
+        device.Filter = "host " + ip;//host 192.168.100.7";
         device.StartCapture();
 
         Console.WriteLine("Нажми Enter для выхода...");
@@ -64,6 +83,9 @@ class Program
         device.StopCapture();
         device.Close();
     }
+
+    private static void ComListen()
+    {
+
+    }
 }
-
-
