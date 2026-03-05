@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "dgSpecHash": "tQS++tcSuiU=",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\Sniffer\\Sniffer\\Sniffer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\YoYo\\.nuget\\packages\\packetdotnet\\1.4.8\\packetdotnet.1.4.8.nupkg.sha512",
+    "C:\\Users\\YoYo\\.nuget\\packages\\runtime.android-arm.runtime.native.system.io.ports\\10.0.3\\runtime.android-arm.runtime.native.system.io.ports.10.0.3.nupkg.sha512",
+    "C:\\Users\\YoYo\\.nuget\\packages\\runtime.android-arm64.runtime.native.system.io.ports\\10.0.3\\runtime.android-arm64.runtime.native.system.io.ports.10.0.3.nupkg.sha512",
+    "C:\\Users\\YoYo\\.nuget\\packages\\runtime.android-x64.runtime.native.system.io.ports\\10.0.3\\runtime.android-x64.runtime.native.system.io.ports.10.0.3.nupkg.sha512",
+    "C:\\Users\\YoYo\\.nuget\\packages\\runtime.android-x86.runtime.native.system.io.ports\\10.0.3\\runtime.android-x86.runtime.native.system.io.ports.10.0.3.nupkg.sha512",
+    "C:\\Users\\YoYo\\.nuget\\packages\\runtime.linux-arm.runtime.native.system.io.ports\\10.0.3\\runtime.linux-arm.runtime.native.system.io.ports.10.0.3.nupkg.sha512",
+    "C:\\Users\\YoYo\\.nuget\\packages\\runtime.linux-arm64.runtime.native.system.io.ports\\10.0.3\\runtime.linux-arm64.runtime.native.system.io.ports.10.0.3.nupkg.sha512",
+    "C:\\Users\\YoYo\\.nuget\\packages\\runtime.linux-bionic-arm64.runtime.native.system.io.ports\\10.0.3\\runtime.linux-bionic-arm64.runtime.native.system.io.ports.10.0.3.nupkg.sha512",
+    "C:\\Users\\YoYo\\.nuget\\packages\\runtime.linux-bionic-x64.runtime.native.system.io.ports\\10.0.3\\runtime.linux-bionic-x64.runtime.native.system.io.ports.10.0.3.nupkg.sha512",
+    "C:\\Users\\YoYo\\.nuget\\packages\\runtime.linux-musl-arm.runtime.native.system.io.ports\\10.0.3\\runtime.linux-musl-arm.runtime.native.system.io.ports.10.0.3.nupkg.sha512",
+    "C:\\Users\\YoYo\\.nuget\\packages\\runtime.linux-musl-arm64.runtime.native.system.io.ports\\10.0.3\\runtime.linux-musl-arm64.runtime.native.system.io.ports.10.0.3.nupkg.sha512",
+    "C:\\Users\\YoYo\\.nuget\\packages\\runtime.linux-musl-x64.runtime.native.system.io.ports\\10.0.3\\runtime.linux-musl-x64.runtime.native.system.io.ports.10.0.3.nupkg.sha512",
+    "C:\\Users\\YoYo\\.nuget\\packages\\runtime.linux-x64.runtime.native.system.io.ports\\10.0.3\\runtime.linux-x64.runtime.native.system.io.ports.10.0.3.nupkg.sha512",
+    "C:\\Users\\YoYo\\.nuget\\packages\\runtime.maccatalyst-arm64.runtime.native.system.io.ports\\10.0.3\\runtime.maccatalyst-arm64.runtime.native.system.io.ports.10.0.3.nupkg.sha512",
+    "C:\\Users\\YoYo\\.nuget\\packages\\runtime.maccatalyst-x64.runtime.native.system.io.ports\\10.0.3\\runtime.maccatalyst-x64.runtime.native.system.io.ports.10.0.3.nupkg.sha512",
+    "C:\\Users\\YoYo\\.nuget\\packages\\runtime.native.system.io.ports\\10.0.3\\runtime.native.system.io.ports.10.0.3.nupkg.sha512",
+    "C:\\Users\\YoYo\\.nuget\\packages\\runtime.osx-arm64.runtime.native.system.io.ports\\10.0.3\\runtime.osx-arm64.runtime.native.system.io.ports.10.0.3.nupkg.sha512",
+    "C:\\Users\\YoYo\\.nuget\\packages\\runtime.osx-x64.runtime.native.system.io.ports\\10.0.3\\runtime.osx-x64.runtime.native.system.io.ports.10.0.3.nupkg.sha512",
+    "C:\\Users\\YoYo\\.nuget\\packages\\sharppcap\\6.3.1\\sharppcap.6.3.1.nupkg.sha512",
+    "C:\\Users\\YoYo\\.nuget\\packages\\system.io.ports\\10.0.3\\system.io.ports.10.0.3.nupkg.sha512",
+    "C:\\Users\\YoYo\\.nuget\\packages\\system.memory\\4.6.3\\system.memory.4.6.3.nupkg.sha512",
+    "C:\\Users\\YoYo\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\YoYo\\.nuget\\packages\\system.text.encoding.codepages\\9.0.5\\system.text.encoding.codepages.9.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}
