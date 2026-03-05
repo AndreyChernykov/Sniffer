@@ -86,12 +86,17 @@ class Program
 
     private static void ComListen()
     {
-        Console.WriteLine("Введите номер COM-порта (например: COM3):");
-        string portName = Console.ReadLine();
+        string[] ports = SerialPort.GetPortNames();
+        Console.WriteLine("Доступные порты:");
+        foreach (var p in ports)
+            Console.WriteLine(p);
 
-        Console.WriteLine("Введите скорость (baud rate), например 9600:");
+        Console.Write("Введите номер COM-порта (например: COM3): ");
+        string portNum = Console.ReadLine();
+
+        Console.Write("Введите скорость (baud rate), например 9600: ");
         int baudRate = int.Parse(Console.ReadLine());
-
+        string portName = "COM" + portNum;
         SerialPort port = new SerialPort(portName, baudRate)
         {
             Parity = Parity.None,
@@ -111,10 +116,12 @@ class Program
                 Console.WriteLine(
                     $"[{DateTime.Now:dd.MM.yyyy HH:mm:ss.fff}] COM DATA: {data}"
                 );
+                Console.ReadLine();
             }
             catch (Exception ex)
             {
                 Console.WriteLine($"Ошибка чтения: {ex.Message}");
+                Console.ReadLine();
             }
         };
 
@@ -127,6 +134,7 @@ class Program
         catch (Exception ex)
         {
             Console.WriteLine($"Ошибка открытия порта: {ex.Message}");
+            Console.ReadLine();
         }
         finally
         {
