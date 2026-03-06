@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Sniffer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ae211840d4efe55df8fcf748b35b72ca214483c7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+51b3c7bca4b59343b67f17c07625f432b9662df6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Sniffer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Sniffer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
