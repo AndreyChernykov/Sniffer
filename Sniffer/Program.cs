@@ -116,12 +116,11 @@ class Program
                 Console.WriteLine(
                     $"[{DateTime.Now:dd.MM.yyyy HH:mm:ss.fff}] COM DATA: {data}"
                 );
-                Console.ReadLine();
             }
             catch (Exception ex)
             {
                 Console.WriteLine($"Ошибка чтения: {ex.Message}");
-                Console.ReadLine();
+                
             }
         };
 
@@ -129,7 +128,7 @@ class Program
         {
             port.Open();
             Console.WriteLine($"Прослушивание {portName} начато. Нажмите Enter для выхода...");
-            Console.ReadLine();
+            
         }
         catch (Exception ex)
         {
@@ -141,6 +140,8 @@ class Program
             if (port.IsOpen)
                 port.Close();
         }
+
+        Console.ReadLine();
     }
 }
 
